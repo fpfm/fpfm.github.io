@@ -1,0 +1,3 @@
+Finitary Higher Inductive Types in the Groupoid Model
+
+Abstract: A higher inductive type of level 1 (a 1-hit) has constructors for points and paths only, whereas a higher inductive type of level 2 (a 2-hit) has constructors for surfaces too. We restrict attention to finitary higher inductive types and present general schemata for the types of their point, path, and surface constructors. We also derive the elimination and equality rules from the types of constructors for 1-hits and 2-hits. Moreover, we construct a groupoid model for dependent type theory with 2-hits and point out that we obtain a setoid model for dependent type theory with 1-hits by truncating the groupoid model.
