@@ -1,0 +1,16 @@
+Kruskal's tree theorem in Type theory
+
+We present a Coq mechanisation of a purely inductive proof of Kruskal's
+theorem.
+
+Contrary to classical proofs, there are few instances of intuitionistic proofs for Kruskal's theorem. Some require the assumption that the ground relation is decidable (e.g. [1,2]). Veldman's [3] is the only published proof that does not require that decidability, but it requires "Brouwer's thesis". Moreover, no intuitionistic proof had been mechanized before.
+
+We implement a typed variant of Veldman's intuitionistic proof where the axiom called "Brouwer's thesis" is not necessary: our proof is "axiom free".
+
+We use Coquand's [4] inductive definition of Almost Full relations as an alternative to Veldman's. We present the architecture of the proof:
+the Ramsey and FAN theorems, combinatorial principles and evaluation maps. We replace Veldman's "stump" based induction by lexicographic products of relations well-founded upto a projection.
+
+[1] J. Goubault-Larrecq. A Constructive Proof of the Topological Kruskal Theorem.
+[2] M. Seisenberger. On the Constructive Content of Proofs.
+[3] W. Veldman. An intuitionistic proof of Kruskal's theorem.
+[4] D. Vytiniotis et al. Stop When You Are Almost-Full.

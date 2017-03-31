@@ -1,0 +1,4 @@
+The Three-HITs Theorem
+
+We show that all higher inductive types can be constructed from coequalizers, path coequalizers and homotopy colimits. The proof is inspired by Adámek's theorem which constructs inductive types as a colimit of a functor. This way one can reason about all higher inductive types by instead studying a small number of examples.
+This is joint work with Andrej Bauer.
