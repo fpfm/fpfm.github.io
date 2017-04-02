@@ -1,0 +1,4 @@
+Formalizing aspects of differential Cohesion in Homotopy Type Theory
+
+The categories of smooth manifolds or schemes may be faithfully embedded in categories of (higher) sheaves on some site. Statements proven in Homotopy Type Theory may be transferred to such categories of sheaves.
+We demonstrate how a modality in the type theory may be used to access some aspects of the differential geometric structure of the sheaves, given by manifolds or schemes, and provide some basic results concerning a generalized version of the tangent bundle.
