@@ -1,0 +1,8 @@
+Why Is It Still Hard to Formalize Metatheory?
+
+Formalizing metatheory has been a problem since before the invention of the computer - it was the original motivation for the lambda-calculus.  And yet, after so much work, we still do not have agreement on the best way to do it, or desirable characteristics that a formalization should satisfy.
+
+Almost all approaches require the syntax and rules of deduction of each system to be given as inductive types.  This makes it hard to re-use results proved about one system in another.
+
+After surveying several approaches, I will present recent work on a library in Agda of results about formal systems, called MetaL (Metatheory Library).  The library MetaL contains general proofs of results Weakening and Substitution Lemmas, and the Church-Rosser theorem for reduction relations that have no critical pairs.  It was designed with these criteria in mind: 1. The definition of a syntax should look like the definition on paper.  2. After the syntax is defined, the general results should be immediately available for that syntax.  3. It should be possible to define functions by induction on syntax, and prove results by induction on syntax and induction on derivations, using Agda's built-in pattern matching.  The library MetaL uses de Bruijn indices, but the technique could easily be adapted to produce a similar library for another representation.
+
