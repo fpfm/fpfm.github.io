@@ -1,0 +1,4 @@
+MTT-semantics and Its Formalisation
+
+This talk gives an overview of some recent work on formal semantics for NLs in modern type theories (MTT-semantics) and its formalisation in Coq.
+
