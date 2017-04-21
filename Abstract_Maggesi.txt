@@ -1,0 +1,4 @@
+De Bruijn Monads
+
+We propose an explanation for the success of the de Bruijn encoding of the syntax associated to a (higher-order) signature Sigma. Indeed, we show how it can be viewed as the initial representation of Sigma in relative monads (in the sense of Altenkirch, Chapman, and Uustalu) on a very simple functor.  This functor is the embedding into the category Set of its full subcategory with one object N (the set of natural numbers).  This high-level point of view allows us to easily extrapolate several useful "fusion laws" which otherwise might be tricky to devise.
+This is joint work with André Hirschowitz.

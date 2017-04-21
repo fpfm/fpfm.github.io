@@ -1,0 +1,8 @@
+Stack model of type theory
+
+Since we have models of univalence in a constructive setting one would expect to use known techniques such as sheaf models to prove independence results, such as the fact that countable choice is independent from univalence. When trying this for the groupoid model (thus working with groupoids in a sheaf model) one surprise is that countable choice, formulated with propositional truncation, always hold. When analysing this problem, one sees that the sheaf condition is too strong: it requires the local data to be compatible w.r.t. strict equalities, while what is needed there should be compatibility for path equalities. This is exactly the notion of stacks, as defined in algebraic geometry. We will explain then the groupoid model counter-model for an example suggested by Martin Escardo and Andrew Swan, namely
+
+ (Pi (n:N) || B + A n ||)  -> || Pi (n:N) B + A n ||
+
+If time permits, we will present the generalisation to cubical stacks, giving the independence of this principle also from a hierarchy of univalent universes.
+

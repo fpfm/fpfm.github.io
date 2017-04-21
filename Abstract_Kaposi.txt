@@ -1,0 +1,4 @@
+Formalisation of the metatheory of type theory using quotient inductive types
+
+In this talk, I will investigate the formalisation of the metatheory of type theory in proof assistants based on intensional type theory using Agda as a vehicle. I will show how the syntax of type theory can be given as a quotient inductive inductive type (QIIT) and how this can be implemented in Agda. I argue that the QIIT-formalisation is a higher level approach than the traditional syntax (using preterms and typing relations): we can only talk about well-typed terms and every construction needs to respect the conversion relation. I will discuss how the QIIT-syntax relates to the old style syntax. I will show how models of type theory can be formalised using this approach and how parametricity and normalisation can be proved.
+This is joint work with Thorsten Altenkirch and András Kovács.
